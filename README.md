@@ -8,6 +8,7 @@ dinâmica de movimento em alto-mar, desenvolvido sobre o microcontrolador Heltec
 🛠️ Metodologia de Desenvolvimento
 
 Desenvolvimento Modular: Cada sensor possui seu próprio código estruturado em funções reutilizáveis e executado via tarefas independentes do FreeRTOS.
+
 Integração Futura: Após os testes individuais de bancada, todos os módulos serão unificados no projeto principal utilizando a estrutura de abas (.ino) da IDE do Arduino.
 
 📂 Estrutura do Projeto (o que temos ate agora)
