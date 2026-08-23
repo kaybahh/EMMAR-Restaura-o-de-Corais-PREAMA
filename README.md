@@ -11,4 +11,5 @@ Integração Futura: Após os testes individuais de bancada, todos os módulos s
 📂 Estrutura do Projeto (o que temos ate agora)
 
 BME280 — Módulo sensor de pressão, temperatura e umidade.
+
 BNO055 — Módulo de giroscópio, bússola e algoritmo de alertas.
