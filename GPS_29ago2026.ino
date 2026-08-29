@@ -97,7 +97,6 @@ void tarefaGPS(void*parametro){
 void tarefaOLED(void*parametro){
   while (1){
     display_lora.clear();
-    //display_lora.drawStringMaxWidth(0, 0, 128, txdadosGPS);
     display_lora.drawString(0, 0, "Lat: " + String(latitude, 4));
     display_lora.drawString(0, 20, "Lng: " + String(longitude, 4));
     display_lora.drawString(0, 40, "Vel: " + String(velocidade, 2) + " m/s");
